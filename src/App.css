@@ -1,41 +1,29 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+:root {
+  --color-first          : #65587f;
+  --color-second         : #f18867;
+  --color-third          : #e85f99;
+  --color-forth          : #50bda1;
+  --block-width          :   300px;
+  --block-height         :   270px;
+  --border-width         : .625rem;
+  --border-radius-outer  :     8px;
+  --border-radius-inner  : calc(var(--border-radius-outer) / 2);
+  --font-plain           : 'IBM Plex Sans', sans-serif;
+  --font-special         : 'Fredoka One', sans-serif;
+
+  box-sizing: border-box;
+  line-height: 1.4
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+*, *:before, *:after { box-sizing: inherit }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+body {
+  background: hsl(0, 0%, 95%);
+  color: #5e5e5e;
+  font-family: var(--font-plain);
+  height: 100vh;
+  display: flex;
+  justify-content: center; align-items: center;
 }

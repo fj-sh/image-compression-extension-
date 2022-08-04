@@ -23,7 +23,8 @@ body {
   background: hsl(0, 0%, 95%);
   color: #5e5e5e;
   font-family: var(--font-plain);
-  height: 100vh;
+  width: 400px;
+  height: 400px;
   display: flex;
   justify-content: center; align-items: center;
 }

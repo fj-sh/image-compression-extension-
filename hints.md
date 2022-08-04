@@ -27,3 +27,11 @@ npm add -D sass
 
 - [Animated CSS Gradient Border](https://codepen.io/mike-schultz/pen/NgQvGO)
 - [これを使った！Fancy animated rainbow border xD](https://codepen.io/ahmadnasr/pen/BaNQweQ)
+- [グラデーションのサンプルがたくさんある](https://freefrontend.com/css-border-animations/)
+
+
+### NotificationBar
+
+エラーの通知を行う。
+
+https://github.com/kufu/smarthr-ui/blob/v22.2.1/src/components/NotificationBar/NotificationBar.tsx

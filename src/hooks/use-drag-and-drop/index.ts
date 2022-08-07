@@ -70,6 +70,8 @@ export function useDragAndDrop() {
     onDragOver,
     onDragLeave,
     onDrop,
+    quality,
+    setQuality,
     errorMessage,
   }
 }

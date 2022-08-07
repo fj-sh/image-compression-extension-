@@ -35,3 +35,24 @@ npm add -D sass
 エラーの通知を行う。
 
 https://github.com/kufu/smarthr-ui/blob/v22.2.1/src/components/NotificationBar/NotificationBar.tsx
+
+
+## Chrome ウェブストア
+
+デベロッパーダッシュボードにて、審査が不承認となった場合。
+
+### スパムとストア掲載順位
+
+- 違反の参照 ID: 
+- 違反: スパムに関するポリシーの 1 つ以上のセクションに違反するアイテムが公開されています。
+- 修正方法: アイテムでスパム行為に関与することや、ストアでのアイテムの掲載位置を操作することはしないでください。
+- プログラム ポリシーの関連セクション: スパムとストア掲載順位
+
+公開したパッケージ名が他の拡張と重複している場合に不承認となった。
+パッケージ名を変更して、説明をシンプルなものに変更したら、審査が開始された。
+
+## React + Vite + MUI
+
+```shell
+npm install @mui/material @emotion/react @emotion/styled
+```

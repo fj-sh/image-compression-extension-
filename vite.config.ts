@@ -4,8 +4,8 @@ import { crx, defineManifest } from '@crxjs/vite-plugin'
 
 const manifest = defineManifest({
   manifest_version: 3,
-  name: 'Webp Converter',
-  version: '1.0.0',
+  name: 'Drag and Drop Webp Converter',
+  version: '1.0.2',
   icons: {
     '16': 'compress.png',
     '48': 'compress.png',

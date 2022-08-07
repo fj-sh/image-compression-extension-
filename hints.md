@@ -56,3 +56,8 @@ https://github.com/kufu/smarthr-ui/blob/v22.2.1/src/components/NotificationBar/N
 ```shell
 npm install @mui/material @emotion/react @emotion/styled
 ```
+
+
+## Chrome Developer Dashboard
+
+https://chrome.google.com/webstore/developer/dashboard

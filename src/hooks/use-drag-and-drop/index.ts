@@ -4,6 +4,11 @@ function isImageFile(file: File) {
   return file.type.split('/')[0] === 'image'
 }
 
+function replaceSuffixToWebp(filename: string) {
+  const basename = filename.substring(0, filename.lastIndexOf('.')) || filename
+  return `${basename}.webp`
+}
+
 /**
  * Convert image file to webp and return image URL.
  * @param {File} file
@@ -36,7 +41,8 @@ async function convertImageToWebp(file: File, quality: number): Promise<string> 
 function downloadImageFile(name: string, url: string) {
   const link = document.createElement('a')
   link.href = url
-  link.download = `${name}.webp`
+  // link.download = `${name}.webp`
+  link.download = replaceSuffixToWebp(name)
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
